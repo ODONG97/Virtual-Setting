@@ -1,0 +1,14 @@
+CPU 하나당 Socket(2), Core(2) 총 4개 제작
+
+Memory 4GB
+
+기본 OS를 위한 Disk 20GB를 할당하며, Oracle Home과 Database 파일을 위해 50GB 를 할당한다
+ -> 고객사에서 요구하는 환경에 따라 다르게 세팅 가능
+ 
+[Disk Space]
+Oracle Database Home&Base(최소 8GB)
+Oracle Database Enterprise Edition(최소 7.5GB)
+Oracle Database Standard Edition(최소 7.5GB)
+/tmp (최소 1GB ~ 최대 2TB)
+Memory : RAM(Swap Space) -> Between 1GB & 2GB(1.5times the size of RAM)
+Between 2GB&16GB(Equal to the size of Ram) / More than 16GB(16GB) ## DOC ID 2197176.1 / 2196074.1
